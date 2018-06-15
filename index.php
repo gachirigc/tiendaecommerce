@@ -14,14 +14,14 @@ include("functions/functions.php");
         <div class="main_wrapper">
             <!-- Header starts here-->
             <div class="header_wrapper">
-                <a href="index.php"><img id="logo" src="images/UGlogo.png"/></a>
+                <a href="index.php"><img id="logo" src="images/UGlogo.png"/></a><!-- El estilo logo se pone con .css-->
                 <img id="banner" src="images/ad-banner.gif"/>
             </div>
             <!-- Header ends here-->
-            
+            <!-- Modificado por Abel Chiriguayo 2018/06/15 gustavo.chiriguayoc@ug.edu.ec-->
             <!-- Navegation Bar starts here-->
             <div class="menubar">
-                <ul id="menu"><!-- 无序列表-->
+                <ul id="menu">
                     <li><a href="index.php">Home</a></li>
 				    <li><a href="all_products.php">All Products</a></li>
 				    <li><a href="customers/my_account.php">My Account</a></li>
@@ -89,12 +89,12 @@ include("functions/functions.php");
             <!-- Footer starts here-->
             <div id="footer">
                 <h2 style="text-align: center; padding-top: 30px;">&copy;
-                    2018 por Grupo Desarrollo de Aplicaciones Web<!-- &copy Gustavo Chiriguayo 2018/06/15-->
+                    2018 por Grupo Desarrollo de Aplicaciones Web<!-- Modificado por Abel Chiriguayo 2018/06/15 gustavo.chiriguayoc@ug.edu.ec-->
                 </h2>
             </div>
 	   <div class="footer text-muted text-center">
                         <div class="row">
-                            <span class="help-block text-center no-margin">Creado por Gustavo Chiriguayo <a href="http://www.ug.edu.ec"></a></span>
+                            <span class="help-block text-center no-margin">Modificado por Abel Chiriguayo <a mailto="gustavo.chiriguayoc@ug.edu.ec"></a></span>
                             ©2018. Derechos Reservados <a href="http://www.ug.edu.ec"> </a>
                         </div>                    
            </div>
@@ -102,5 +102,5 @@ include("functions/functions.php");
         </div>
         <!-- Main Container ends here-->
     </body>
-
+<!-- Modificado por Abel Chiriguayo-->
 </html>
