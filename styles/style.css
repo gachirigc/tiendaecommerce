@@ -48,7 +48,7 @@ body{background: skyblue;}
 #banner{
     float: right;
     height: 90px;
-    width: 672px;
+    width: 728px;
 }
 #menu{
     padding: 0;/*设置元素的内边距，line-height合理的行间距*/
