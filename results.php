@@ -14,7 +14,7 @@ include("functions/functions.php");
             <!-- Header starts here-->
             <div class="header_wrapper">
                 <a href="index.php"><img id="logo" src="images/logo.gif"/></a>
-                <img id="banner" src="images/SIUG-banner-01.png"/>
+                <img id="banner" src="images/ad-banner.gif"/>
             </div>
             <!-- Header ends here-->
             
