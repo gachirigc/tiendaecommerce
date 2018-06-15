@@ -42,8 +42,9 @@ body{background: skyblue;}
 }
 #logo{
     float: left; 
+    /*height: 90px;
+    width: 272px;*/
     height: 90px;
-    /*width: 272px;*/
     width: 100px;
 }
 #banner{
