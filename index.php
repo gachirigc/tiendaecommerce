@@ -89,13 +89,12 @@ include("functions/functions.php");
             <!-- Footer starts here-->
             <div id="footer">
                 <h2 style="text-align: center; padding-top: 30px;">&copy;
-                    2018 by edward-shi<!-- &copy元素用于通知版权资料-->
+                    2018 por Grupo Desarrollo de Aplicaciones Web<!-- &copy Gustavo Chiriguayo 2018/06/15-->
                 </h2>
             </div>
 	   <div class="footer text-muted text-center">
                         <div class="row">
-                            <span class="help-block text-center no-margin">Creado por el Centro de Cómputo <a href="http://www.ug.edu.ec">
-                            Universidad de Guayaquil</a></span>
+                            <span class="help-block text-center no-margin">Creado por Gustavo Chiriguayo <a href="http://www.ug.edu.ec"></a></span>
                             ©2018. Derechos Reservados <a href="http://www.ug.edu.ec"> SIUG</a>
                         </div>                    
            </div>
