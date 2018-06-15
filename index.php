@@ -15,7 +15,7 @@ include("functions/functions.php");
             <!-- Header starts here-->
             <div class="header_wrapper">
                 <a href="index.php"><img id="logo" src="images/UGlogo.png"/></a><!-- El estilo logo se pone con .css-->
-                <img id="banner" src="images/ad-banner.gif"/>
+                <img id="banner" src="images/SIUG-banner-02.png"/>
             </div>
             <!-- Header ends here-->
             <!-- Modificado por Abel Chiriguayo 2018/06/15 gustavo.chiriguayoc@ug.edu.ec-->
