@@ -1,7 +1,8 @@
 <!DOCTYPE>
 <?php
-session_start();
+//session_start();
 include("functions/functions.php");
+session_start();
 ?>
 <html>
     <head>
