@@ -95,7 +95,7 @@ include("functions/functions.php");
 	   <div class="footer text-muted text-center">
                         <div class="row">
                             <span class="help-block text-center no-margin">Creado por Gustavo Chiriguayo <a href="http://www.ug.edu.ec"></a></span>
-                            ©2018. Derechos Reservados <a href="http://www.ug.edu.ec"> SIUG</a>
+                            ©2018. Derechos Reservados <a href="http://www.ug.edu.ec"> </a>
                         </div>                    
            </div>
             <!-- Footer ends here-->
