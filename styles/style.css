@@ -81,7 +81,7 @@ body{background: skyblue;}
 .menubar{
     width: 1000px;
     height: 50px;
-    background: gray;
+    background: #00539F;
     color: white;
 }
 。content_wrapper{
@@ -151,6 +151,6 @@ body{background: skyblue;}
 #footer{
     width: 1000px;
     height: 100px;
-    background: gray;
+    background: #00539F;
     clear: both;
 }
