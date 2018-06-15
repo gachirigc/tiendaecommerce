@@ -1,11 +1,11 @@
 
 ![](https://github.com/shi-edward/Ecommerce-website/blob/master/photo/ecommerce_photo.png)
 #Ecommerce-Website
-This is a project to create a complete e-commerce website which is online shopping store for selling/buying products with PHP, PHP, MySQLi, JavaScript, HTML and CSS. I created the website layout, user registration, login systems, shopping cart, checkout system, paypal integration system and admin panel.
-##Quick Start
-* Sign up a admin user(admin/admin exists), then configure the project, add products to the project, detect it.
-* Project admin audit the deployment.
-* Developer deploy the deployment.
+Este es un proyecto para crear un sitio web de comercio electrónico completo que es una tienda de compras en línea para vender / comprar productos con PHP, MySQL, JavaScript, HTML y CSS. Está el diseño del sitio web, el registro de usuarios, los sistemas de inicio de sesión, el carrito de compras, el sistema de pago, el sistema de integración de PayPal y el panel de administración.
+##Inicio rápido
+* Registre un usuario administrador, luego configure el proyecto, agregue productos al proyecto.
+* Proyecto administrador auditar la implementación.
+* Desarrollador despliegue la implementación.
 
 ##Requirements
 * PHP & MySQL
