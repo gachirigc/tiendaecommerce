@@ -92,10 +92,13 @@ include("functions/functions.php");
                     2018 by edward-shi<!-- &copy元素用于通知版权资料-->
                 </h2>
             </div>
-	    <span class="help-block text-center no-margin">Creado por el Centro de Cómputo <a href="http://www.ug.edu.ec">
-                  Universidad de Guayaquil</a></span>
-            ©2018. Derechos Reservados <a href="http://www.ug.edu.ec"> SIUG</a>
-
+	   <div class="footer text-muted text-center">
+                        <div class="row">
+                            <span class="help-block text-center no-margin">Creado por el Centro de Cómputo <a href="http://www.ug.edu.ec">
+                            Universidad de Guayaquil</a></span>
+                            ©2018. Derechos Reservados <a href="http://www.ug.edu.ec"> SIUG</a>
+                        </div>                    
+           </div>
             <!-- Footer ends here-->
         </div>
         <!-- Main Container ends here-->
