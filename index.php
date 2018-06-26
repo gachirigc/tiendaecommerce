@@ -2,7 +2,7 @@
 <?php
 session_start();
 include("functions/functions.php");
-$rutahome= '/tiendaecommerce';
+$rutahome= '';
 ?>
 <html>
     <head>
