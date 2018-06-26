@@ -2210,3 +2210,9 @@ textarea.input {
 td{
   padding: 5px 0;
 }
+#products_box td, #products_box  th {
+    padding: 10px 20px;
+}
+#products_box td, #products_box  th  {
+    border-bottom:1px solid #E2E2E2;
+}

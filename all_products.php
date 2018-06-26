@@ -16,11 +16,11 @@ include("functions/functions.php");
             <!-- Content starts here-->
             <div class="container">
                 <div id="sidebar">
-                    <div id="sidebar_title">Categorías</div>
+                    <div id="sidebar_title"><h2><br>Categorías</h2></div>
                     <ul id="cats">
                         <?php getCats(); ?>
                     </ul>
-                    <div id="sidebar_title">Brands</div>
+                    <div id="sidebar_title" style="padding:20px 0 5px 10px"><h2>Marcas</h2></div>
                     <ul id="cats">
                         <?php getBrands(); ?>
                     </ul>
