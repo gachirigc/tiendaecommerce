@@ -1,3 +1,33 @@
+<head>
+		<title>Proyecto Desarrollo Web</title>
+		<link rel="stylesheet" href="styles/style.css" media="all" />
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+<!-- Google font -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+
+<!-- Bootstrap -->
+<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+
+<!-- Slick -->
+<link type="text/css" rel="stylesheet" href="css/slick.css"/>
+<link type="text/css" rel="stylesheet" href="css/slick-theme.css"/>
+
+<!-- nouislider -->
+<link type="text/css" rel="stylesheet" href="css/nouislider.min.css"/>
+
+<!-- Font Awesome Icon -->
+<link rel="stylesheet" href="css/font-awesome.min.css">
+
+<!-- Custom stlylesheet -->
+<link type="text/css" rel="stylesheet" href="css/style.css"/>
+</head>
+
+
 <!-- HEADER -->
 		<header>
 			<!-- TOP HEADER -->
@@ -25,7 +55,7 @@
 						<!-- LOGO -->
 						<div class="col-md-3">
 							<div class="header-logo">
-								<a href="#" class="logo">
+								<a href="/index.php" class="logo">
 									<img src="./img/logo.png" alt="">
 								</a>
 							</div>
@@ -42,7 +72,7 @@
 										<option value="1">Category 02</option>
 									</select>
 									<input class="input" type="text" name="user_query" placeholder= "Buscar en la tienda">
-									
+
 									<input class="search-btn" type="submit" name="search" value="Buscar"/>
 								</form>
 							</div>
@@ -54,7 +84,7 @@
 							<div class="header-ctn">
 								<!-- Wishlist -->
 								<div>
-									<a href="#">
+									<a href="/index.php">
 										<i class="fa fa-heart-o"></i>
 										<span>Tu lista de deseos</span>
 										<div class="qty">2</div>
@@ -124,11 +154,11 @@
 			<!-- /MAIN HEADER -->
 		</header>
 		<!-- /HEADER -->
-		
-		
-		
-		
-		
+
+
+
+
+
 		<!-- NAVIGATION -->
 		<nav id="navigation">
 			<!-- container -->
@@ -145,31 +175,31 @@
 						<li><a href="contact_us.php">Contactos</a></li>
 					</ul>
 					<!-- /NAV -->
-					
+
 				<?php cart(); ?>
                 <div id="shopping_cart">
                     <span>
-                        <?php 
+                        <?php
                             if(isset($_SESSION['customer_email'])){
                                 echo "<b>Bienvenido:</b>" . $_SESSION['customer_email'] . "<b style='color:#D10024;'>Your</b>" ;
                             }else {
                                 echo "<b>Bienvenido invitado:</b>";
                             }
                         ?>
-                        
-                        
+
+
                         <b style="color:#D10024">Compras - </b><strong>Total Items:</strong> <?php total_items(); ?> / <strong>Precio total:</strong> <?php total_price(); ?>
-                        
+
                     </span>
                 </div>
 				</div>
 				<!-- /responsive-nav -->
-				
-				
-				
-				
-				
-				
+
+
+
+
+
+
 			</div>
 			<!-- /container -->
 		</nav>

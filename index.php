@@ -5,36 +5,7 @@ include("functions/functions.php");
 $rutahome= '';
 ?>
 <html>
-    <head>
-        <title>Proyecto Desarrollo Web</title>
-        <link rel="stylesheet" href="styles/style.css" media="all" />
 
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
-		<title>Electro - HTML Ecommerce Template</title>
-
-		<!-- Google font -->
-		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
-
-		<!-- Bootstrap -->
-		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
-
-		<!-- Slick -->
-		<link type="text/css" rel="stylesheet" href="css/slick.css"/>
-		<link type="text/css" rel="stylesheet" href="css/slick-theme.css"/>
-
-		<!-- nouislider -->
-		<link type="text/css" rel="stylesheet" href="css/nouislider.min.css"/>
-
-		<!-- Font Awesome Icon -->
-		<link rel="stylesheet" href="css/font-awesome.min.css">
-
-		<!-- Custom stlylesheet -->
-		<link type="text/css" rel="stylesheet" href="css/style.css"/>
-    </head>
 
     <body>
 		<?php include("header.php");?>
@@ -94,7 +65,7 @@ $rutahome= '';
 
 
 
-          
+
             <!-- Modificado por Abel Chiriguayo 2018/06/15 gustavo.chiriguayoc@ug.edu.ec-->
             <!-- Navegation Bar starts here
             <div class="menubar">
@@ -179,18 +150,18 @@ $rutahome= '';
             <!-- Content starts here-->
             <div class="content_wrapper">
                 <div id="sidebar">
-                    <div id="sidebar_title"><h3>CATEGORÍAS</h3></div>
-                    <ul id="cats">
+                    <div id="sidebar_title"><h2>Categorías</h2></div>
+                    <ul id="cats" >
                         <?php getCats(); ?>
                     </ul>
-                    <div id="sidebar_title"><h3>MARCAS</h3></div>
+                    <div id="sidebar_title" style="padding:20px 0 5px 10px"><h2>Marcas</h2></div>
                     <ul id="cats">
                         <?php getBrands(); ?>
                     </ul>
                 </div>
 
                 <div id="content_area">
-
+                    <h2 style="margin-left:90px">Productos desctacados</h2>
                     <div id="products_box">
                         <?php getPro(); ?>
                         <?php getCatPro(); ?>
@@ -212,11 +183,6 @@ $rutahome= '';
     </body>
 
 	<!-- jQuery Plugins -->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/slick.min.js"></script>
-		<script src="js/nouislider.min.js"></script>
-		<script src="js/jquery.zoom.min.js"></script>
-		<script src="js/main.js"></script>
+
 <!-- Modificado por Abel Chiriguayo-->
 </html>

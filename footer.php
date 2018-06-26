@@ -388,7 +388,7 @@
 					<div class="row">
 						<div class="col-md-3 col-xs-6">
 							<div class="footer">
-								<h3 class="footer-title">About Us</h3>
+								<h3 class="footer-title">Sobre nosotros</h3>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
 								<ul class="footer-links">
 									<li><a href="#"><i class="fa fa-map-marker"></i>1734 Stonecoal Road</a></li>
@@ -400,13 +400,13 @@
 
 						<div class="col-md-3 col-xs-6">
 							<div class="footer">
-								<h3 class="footer-title">Categories</h3>
+								<h3 class="footer-title">Categorías</h3>
 								<ul class="footer-links">
-									<li><a href="#">Hot deals</a></li>
+									<li><a href="#">Más vendidos</a></li>
 									<li><a href="#">Laptops</a></li>
 									<li><a href="#">Smartphones</a></li>
-									<li><a href="#">Cameras</a></li>
-									<li><a href="#">Accessories</a></li>
+									<li><a href="#">Cámarass</a></li>
+									<li><a href="#">Accesorios</a></li>
 								</ul>
 							</div>
 						</div>
@@ -474,3 +474,11 @@
 			<!-- /bottom footer -->
 		</footer>
 		<!-- /FOOTER -->
+
+
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/slick.min.js"></script>
+		<script src="js/nouislider.min.js"></script>
+		<script src="js/jquery.zoom.min.js"></script>
+		<script src="js/main.js"></script>

@@ -191,6 +191,23 @@ textarea.input {
 
 /*-- checkbox & radio input --*/
 
+#content_area input[type=text], #content_area input[type=password], #content_area input[type=file], #content_area select {
+    width: 97%;
+    padding: 12px 20px;
+    margin:0 20px;
+    box-sizing: border-box;
+}
+#content_area select {
+    height: 44px;
+}
+#content_area input[type=submit]{
+  height: 44px;
+  width: 157px;
+  margin: 20px 0;
+  border-radius: 12px;
+  float: right;
+}
+
 .input-radio, .input-checkbox {
   position: relative;
   display: block;
@@ -2187,4 +2204,9 @@ textarea.input {
     float: none;
     margin-top: 10px;
   }
+}
+
+
+td{
+  padding: 5px 0;
 }
