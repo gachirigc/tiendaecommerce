@@ -121,11 +121,11 @@ session_start();
         $headers = "MIME-Version: 1.0" . "\r\n";
         $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
         $headers .= 'From: <edwardshi@gmail.com>' . "\r\n";
-        $subject = "Order Details";$message = "<html> 
+        $subject = "Order Detalles";$message = "<html> 
         <p>
         Hello dear <b style='color:blue;'>$c_name</b> you have ordered some products on our website contactwithchinese.info/myshop, please find your order details, your order will be processed shortly. Thank you!</p>
         <table width='600' align='center' bgcolor='#FFCC99' border='2'>
-            <tr align='center'><td colspan='6'><h2>Your Order Details from contactwithchinese.info/myshop</h2></td></tr>
+            <tr align='center'><td colspan='6'><h2>Your Order Detalles from contactwithchinese.info/myshop</h2></td></tr>
             <tr align='center'>
                 <th><b>S.N</b></th>
                 <th><b>Product Name</b></th>

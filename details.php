@@ -75,7 +75,7 @@ include("functions/functions.php");
                                         <p><b>$ $pro_price </b></p>
                                         <p> $pro_desc </p>
                                         <a href='index.php' style='float:left'>Go Back</a>
-                                        <a href='index.php?pro_id=$pro_id'><button style='float:right'>Añadir al carrito</button></a>
+                                        <a href='index.php?pro_id=$pro_id'><button style='float:right'>Comprar</button></a>
                                     </div>
 
                                 ";

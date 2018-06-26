@@ -55,7 +55,7 @@
 												</div>
 											</div>
 											<div class="add-to-cart">
-												<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Añadir al carrito</button>
+												<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Comprar</button>
 											</div>
 										</div>
 										<!-- /product -->
@@ -86,7 +86,7 @@
 												</div>
 											</div>
 											<div class="add-to-cart">
-												<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Añadir al carrito</button>
+												<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Comprar</button>
 											</div>
 										</div>
 										<!-- /product -->
@@ -112,7 +112,7 @@
 												</div>
 											</div>
 											<div class="add-to-cart">
-												<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Añadir al carrito</button>
+												<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Comprar</button>
 											</div>
 										</div>
 										<!-- /product -->
@@ -140,7 +140,7 @@
 												</div>
 											</div>
 											<div class="add-to-cart">
-												<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Añadir al carrito</button>
+												<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Comprar</button>
 											</div>
 										</div>
 										<!-- /product -->
@@ -168,7 +168,7 @@
 												</div>
 											</div>
 											<div class="add-to-cart">
-												<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Añadir al carrito</button>
+												<button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i> Comprar</button>
 											</div>
 										</div>
 										<!-- /product -->
