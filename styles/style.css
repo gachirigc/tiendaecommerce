@@ -90,13 +90,12 @@ body{background: skyblue;}
     background: pink;
 }
 #content_area{
-    width: 800px;
-    float: right;
-    background: pink;
+	display: table;
+    width: 75%;
 }
 #sidebar{
-    width: 200px;
-    background: black;
+    width: 25%;
+    background: #000;
     float: left;
 }
 #sidebar_title{
@@ -108,19 +107,16 @@ body{background: skyblue;}
     text-align: center;
 }
 #cats{
-    text-align: center;
+    text-align: left;
+    padding: 20px 35px;
 }
 #cats li{
-    list-style: none;
+    list-style: square;
+    color: #fff;
     margin: 5px;
 }
 #cats a{
-    color: white; 
-    padding: 8px; 
-    margin: 5px;
-    text-align: center;
-    font-size: 18px;
-    font-family: comic Sans MS;
+    color: #fff;
     text-decoration: none;
 }
 #cats a:hover{
@@ -129,28 +125,21 @@ body{background: skyblue;}
     text-decoration: underline;
 }
 #products_box{
-    width: 780px;
-    text-align: center;
+        text-align: center;
     margin-left: 30px;
     margin-bottom: 10px;
 }
 #single_product{
-    float: left;
+        float: left;
     margin-left: 30px;
-    padding: 10px;
+    padding: 30px;
 }
 #single_product img{
     border: 2px solid black;
 }
 #shopping_cart{
-    width: 1000px;
-    height: 50px;
-    background: black;
-    color: white;
-}
-#footer{
-    width: 1000px;
-    height: 100px;
-    background: #00539F;
-    clear: both;
+    width: 45%;
+    float: right;
+    padding: 20px 0;
+	text-align: right;
 }

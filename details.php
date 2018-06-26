@@ -70,12 +70,12 @@ include("functions/functions.php");
                                 $pro_desc = $row_pro['product_desc'];
                                 echo"
                                     <div id='single_product'>
-                                        <h3>$pro_title</h3>
+                                        <h5>$pro_title</h5>
                                         <img src='admin_area/product_images/$pro_image' width='400' height='300'/>
                                         <p><b>$ $pro_price </b></p>
                                         <p> $pro_desc </p>
                                         <a href='index.php' style='float:left'>Go Back</a>
-                                        <a href='index.php?pro_id=$pro_id'><button style='float:right'>Add to Cart</button></a>
+                                        <a href='index.php?pro_id=$pro_id'><button style='float:right'>Añadir al carrito</button></a>
                                     </div>
 
                                 ";

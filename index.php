@@ -2,24 +2,47 @@
 <?php
 session_start();
 include("functions/functions.php");
+$rutahome= '/tiendaecommerce';
 ?>
 <html>
     <head>
-        <title>My Online Shop</title>
+        <title>Proyecto Desarrollo Web</title>
         <link rel="stylesheet" href="styles/style.css" media="all" />
+		
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+		<title>Electro - HTML Ecommerce Template</title>
+
+		<!-- Google font -->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+
+		<!-- Bootstrap -->
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+
+		<!-- Slick -->
+		<link type="text/css" rel="stylesheet" href="css/slick.css"/>
+		<link type="text/css" rel="stylesheet" href="css/slick-theme.css"/>
+
+		<!-- nouislider -->
+		<link type="text/css" rel="stylesheet" href="css/nouislider.min.css"/>
+
+		<!-- Font Awesome Icon -->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+
+		<!-- Custom stlylesheet -->
+		<link type="text/css" rel="stylesheet" href="css/style.css"/>
     </head>
     
     <body>
-        <!-- Main Container starts here-->
-        <div class="main_wrapper">
-            <!-- Header starts here-->
-            <div class="header_wrapper">
-                <a href="index.php"><img id="logo" src="images/UGlogo.png"/></a><!-- El estilo logo se pone con .css-->
-                <img id="banner" src="images/SIUG-banner-02.png"/> <!-- Modificado por Abel Chiriguayo 2018/06/15 gustavo.chiriguayoc@ug.edu.ec-->
-            </div>
-            <!-- Header ends here-->
+		<?php include("header.php");?>
+	   <!-- Main Container starts here-->
+        <div class="container">
+            
             <!-- Modificado por Abel Chiriguayo 2018/06/15 gustavo.chiriguayoc@ug.edu.ec-->
-            <!-- Navegation Bar starts here-->
+            <!-- Navegation Bar starts here
             <div class="menubar">
                 <ul id="menu">
                     <li><a href="index.php">Home</a></li>
@@ -39,42 +62,79 @@ include("functions/functions.php");
             </div>
             <!-- Navegation Bar ends here-->
             
+			
+			
+			
+			<!-- SECTION -->
+		<div class="section">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+					<!-- shop -->
+					<div class="col-md-4 col-xs-6">
+						<div class="shop">
+							<div class="shop-img">
+								<img src="./img/shop01.png" alt="">
+							</div>
+							<div class="shop-body">
+								<h3>Pantallas<br>Laptop</h3>
+								<a href=" <?php echo $rutahome; ?>/index.php?cat=18" class="cta-btn">Ver más <i class="fa fa-arrow-circle-right"></i></a>
+							</div>
+						</div>
+					</div>
+					<!-- /shop -->
+
+					<!-- shop -->
+					<div class="col-md-4 col-xs-6">
+						<div class="shop">
+							<div class="shop-img">
+								<img src="./img/shop03.png" alt="">
+							</div>
+							<div class="shop-body">
+								<h3>Audífonos<br>Stereo</h3>
+								<a href="<?php echo $rutahome; ?>/index.php?cat=9" class="cta-btn">Ver más <i class="fa fa-arrow-circle-right"></i></a>
+							</div>
+						</div>
+					</div>
+					<!-- /shop -->
+
+					<!-- shop -->
+					<div class="col-md-4 col-xs-6">
+						<div class="shop">
+							<div class="shop-img">
+								<img src="./img/shop02.png" alt="">
+							</div>
+							<div class="shop-body">
+								<h3>Cámaras de<br>Video</h3>
+								<a href="<?php echo $rutahome; ?>/index.php?cat=4" class="cta-btn">Ver más <i class="fa fa-arrow-circle-right"></i></a>
+							</div>
+						</div>
+					</div>
+					<!-- /shop -->
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /SECTION -->
+			
+			
+			
+			
             <!-- Content starts here-->
             <div class="content_wrapper">
                 <div id="sidebar">
-                    <div id="sidebar_title">Categories</div>
+                    <div id="sidebar_title"><h3>CATEGORÍAS</h3></div>
                     <ul id="cats">
                         <?php getCats(); ?>
                     </ul>
-                    <div id="sidebar_title">Brands</div>
+                    <div id="sidebar_title"><h3>MARCAS</h3></div>
                     <ul id="cats">
                         <?php getBrands(); ?>
                     </ul>
                 </div>
-                <?php cart(); ?>
-                <div id="shopping_cart">
-                    <span style="float:right; font-size:18px; padding:5px; line-height:40px;">
-                        <?php 
-                            if(isset($_SESSION['customer_email'])){
-                                echo "<b>Welcome:</b>" . $_SESSION['customer_email'] . "<b style='color:yellow;'>Your</b>" ;
-                            }else {
-                                echo "<b>Welcome Guest:</b>";
-                            }
-                        ?>
-                        
-                        
-                        <b style="color:yellow">Shopping Cart-</b>Total Items: <?php total_items(); ?>  Total Price: <?php total_price(); ?><a href="cart.php" style="color:yellow"> Go to Cart</a>
-                        
-                        <?php 
-                            if(!isset($_SESSION['customer_email'])){
-                                echo "<a href='checkout.php' style='color:orange;'>Login</a>";
-                            }
-                            else {
-                                echo "<a href='logout.php' style='color:orange;'>Logout</a>";
-                            }
-                        ?>
-                    </span>
-                </div>
+                
                 <div id="content_area">
                     
                     <div id="products_box">
@@ -83,24 +143,26 @@ include("functions/functions.php");
                         <?php getBrandPro(); ?>
                     </div>
                 </div>
-            </div>
+            
+			</div>
             <!-- Content ends here-->
             
+			
+			
+			
             <!-- Footer starts here-->
-            <div id="footer">
-                <h2 style="text-align: center; padding-top: 30px;">&copy;
-                    2018 por Grupo Desarrollo de Aplicaciones Web<!-- Modificado por Abel Chiriguayo 2018/06/15 gustavo.chiriguayoc@ug.edu.ec-->
-                </h2>
-            </div>
-	   <div class="footer text-muted text-center">
-                        <div class="row">
-                            <span class="help-block text-center no-margin">Modificado por Abel Chiriguayo <a mailto="gustavo.chiriguayoc@ug.edu.ec"></a></span>
-                            ©2018. Derechos Reservados <a href="http://www.ug.edu.ec"> </a>
-                        </div>                    
-           </div>
+            <?php include("footer.php");?>
             <!-- Footer ends here-->
         </div>
         <!-- Main Container ends here-->
     </body>
+	
+	<!-- jQuery Plugins -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/slick.min.js"></script>
+		<script src="js/nouislider.min.js"></script>
+		<script src="js/jquery.zoom.min.js"></script>
+		<script src="js/main.js"></script>
 <!-- Modificado por Abel Chiriguayo-->
 </html>
