@@ -172,7 +172,7 @@
 						<li><a href="customers/my_account.php">Mi cuenta</a></li>
 						<li><a href="customer_register.php">Registro</a></li>
 						<li><a href="cart.php">Carrito de Compras</a></li>
-						<li><a href="contact_us.php">Contactos</a></li>
+						<!--<li><a href="contact_us.php">Contactos</a></li>-->
 					</ul>
 					<!-- /NAV -->
 
