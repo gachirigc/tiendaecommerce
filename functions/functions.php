@@ -108,7 +108,7 @@ function getPro(){
                 echo"
                     <div id='single_product'>
                         <h5>$pro_title</h5>
-                        //<img src='admin_area/product_images/$pro_image' width='180' height='180'/>
+                        <!-- <img src='admin_area/product_images/$pro_image' width='180' height='180'/> -->
 			<img src='admin_area/product_images/$pro_image' width='180' height='180'onerror=\"this.src='admin_area/product_images/noimage.jpg'\" />\"/>
                         <p><b> Precio:$ $pro_price </b></p>
                         <a href='details.php?pro_id=$pro_id' style='float:left'>Detalles</a>
@@ -143,7 +143,7 @@ function getCatPro(){
                 echo"
                     <div id='single_product'>
                         <h5>$pro_title</h5>
-                        //<img src='admin_area/product_images/$pro_image' width='180' height='180'/>
+                        <!-- <img src='admin_area/product_images/$pro_image' width='180' height='180'/> -->
 			<img src='admin_area/product_images/$pro_image' width='180' height='180'onerror=\"this.src='admin_area/product_images/noimage.jpg'\" />\"/>
                         <p><b> Precio: $ $pro_price </b></p>
                         <a href='details.php?pro_id=$pro_id' style='float:left'>Detalles</a>
@@ -177,7 +177,7 @@ function getBrandPro(){
             echo "
                     <div id='single_product'>
                         <h5>$pro_title</h5>
-                        //<img src='admin_area/product_images/$pro_image' width='180' height='180' />
+                        <!-- <img src='admin_area/product_images/$pro_image' width='180' height='180' /> -->
 			<img src='admin_area/product_images/$pro_image' width='180' height='180'onerror=\"this.src='admin_area/product_images/noimage.jpg'\" />\"/>
                         <p><b> Precio:$ $pro_price </b></p>
                         <a href='details.php?pro_id=$pro_id' style='float:left;'>Detalles</a>
