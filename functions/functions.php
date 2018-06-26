@@ -109,7 +109,7 @@ function getPro(){
                     <div id='single_product'>
                         <h5>$pro_title</h5>
                         <!-- <img src='admin_area/product_images/$pro_image' width='180' height='180'/> -->
-			<img src='admin_area/product_images/$pro_image' width='180' height='180'onerror=\"this.src='admin_area/product_images/noimage.jpg'\" />\"/>
+			<img src='admin_area/product_images/$pro_image' width='180' height='180'onerror=\"this.src='admin_area/product_images/noimage.jpg'\" />
                         <p><b> Precio:$ $pro_price </b></p>
                         <a href='details.php?pro_id=$pro_id' style='float:left'>Detalles</a>
                         <a href='index.php?add_cart=$pro_id'><button style='float:right'>Comprar</button></a>
@@ -144,7 +144,7 @@ function getCatPro(){
                     <div id='single_product'>
                         <h5>$pro_title</h5>
                         <!-- <img src='admin_area/product_images/$pro_image' width='180' height='180'/> -->
-			<img src='admin_area/product_images/$pro_image' width='180' height='180'onerror=\"this.src='admin_area/product_images/noimage.jpg'\" />\"/>
+			<img src='admin_area/product_images/$pro_image' width='180' height='180'onerror=\"this.src='admin_area/product_images/noimage.jpg'\" />
                         <p><b> Precio: $ $pro_price </b></p>
                         <a href='details.php?pro_id=$pro_id' style='float:left'>Detalles</a>
                         <a href='index.php?pro_id=$pro_id'><button style='float:right'>Comprar</button></a>
@@ -178,7 +178,7 @@ function getBrandPro(){
                     <div id='single_product'>
                         <h5>$pro_title</h5>
                         <!-- <img src='admin_area/product_images/$pro_image' width='180' height='180' /> -->
-			<img src='admin_area/product_images/$pro_image' width='180' height='180'onerror=\"this.src='admin_area/product_images/noimage.jpg'\" />\"/>
+			<img src='admin_area/product_images/$pro_image' width='180' height='180'onerror=\"this.src='admin_area/product_images/noimage.jpg'\" />
                         <p><b> Precio:$ $pro_price </b></p>
                         <a href='details.php?pro_id=$pro_id' style='float:left;'>Detalles</a>
                         <a href='index.php?pro_id=$pro_id'><button style='float:right'>Comprar</button></a>
