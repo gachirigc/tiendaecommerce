@@ -8,12 +8,17 @@ if(mysqli_connect_errno()){
 function getIp() {
     $ip = $_SERVER['REMOTE_ADDR'];
 
-    if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
+   /* if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
         $ip = $_SERVER['HTTP_CLIENT_IP'];
     } elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
         $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
-    }
-
+    }*/
+  
+    if (filter_var(@$_SERVER['HTTP_X_FORWARDED_FOR'], FILTER_VALIDATE_IP))
+                    $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
+    if (filter_var(@$_SERVER['HTTP_CLIENT_IP'], FILTER_VALIDATE_IP))
+                    $ip = $_SERVER['HTTP_CLIENT_IP'];
+    
     return $ip;
 }
 
