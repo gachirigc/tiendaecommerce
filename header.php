@@ -128,8 +128,8 @@
 											<h5>SUBTOTAL: $2940.00</h5>
 										</div>
 										<div class="cart-btns">
-											<a href="#">View Cart</a>
-											<a href="#">Checkout  <i class="fa fa-arrow-circle-right"></i></a>
+											<a href="cart.php">Ver Carrito</a>
+											<a href="checkout.php">Pagar <i class="fa fa-arrow-circle-right"></i></a>
 										</div>
 									</div>
 								</div>
