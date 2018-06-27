@@ -160,7 +160,7 @@ $rutahome= '';
                     </ul>
                 </div>
 
-                <div id="content_area">
+                <div id="content_area" class="home">
                     <h2 style="margin-left:90px">Productos desctacados</h2>
                     <div id="products_box">
                         <?php getPro(); ?>

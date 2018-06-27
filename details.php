@@ -3,58 +3,30 @@
 include("functions/functions.php");
 ?>
 <html>
- 		<?php include("header.php");?>
-
+    <head>
+        <title>My Online Shop</title>
+        <link rel="stylesheet" href="styles/style.css" media="all" />
+    </head>
     
     <body>
+	<?php include("header.php");?>
         <!-- Main Container starts here-->
         <div class="container">
-            <!-- Header starts here
-            <div class="header_wrapper">
-                <img id="logo" src="images/logo.gif"/>
-                <img id="banner" src="images/ad-banner.gif"/>
-            </div>
-             Header ends here-->
             
-            <!-- Navegation Bar starts here
-            <div class="menubar">
-                <ul id="menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">All Products</a></li>
-                    <li><a href="#">My Account</a></li>
-                    <li><a href="#">Sign Up</a></li>
-                    <li><a href="#">Shopping Cart</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <div id="form">
-                        <form method="get" action="results.php" enctype="multipart/form-data">
-                            <input type="text" name="user_query" placeholder= "Search a Product"/>
-                            <input type="submit" name="search" value="Search"/>
-                        </form>
-                    </div>
-                </ul>
-
-            </div>
-            Modificado por Abel Chiriguayo 2018/06/15 gustavo.chiriguayoc@ug.edu.ec
-           Navegation Bar ends here -->
             
             <!-- Content starts here-->
             <div class="content_wrapper">
                 <div id="sidebar">
-                    <div id="sidebar_title">Categorías</div>
+                    <div id="sidebar_title"><h2><br>Categorías</h2></div>
                     <ul id="cats">
                         <?php getCats(); ?>
                     </ul>
-                    <div id="sidebar_title">Marcas</div>
+                    <div id="sidebar_title" style="padding:20px 0 5px 10px"><h2>Marcas</h2></div>
                     <ul id="cats">
                         <?php getBrands(); ?>
                     </ul>
                 </div>
-               <!-- <div id="shopping_cart">
-                    <span style="float:right; font-size:18px; padding:5px; line-height:40px;">
-                        Welcome Guest! <b style="color:yellow">Shopping Cart-</b>Total Items: Total Price: <a href="cart.php" style="color:yellow"> Go to Cart</a>
-                    </span>
-                </div> -->
-                <div id="content_area">
+                <div id="content_area" style="padding: 35px 50px;">
                     
                         <?php
                         if(isset($_GET['pro_id'])){
@@ -68,13 +40,18 @@ include("functions/functions.php");
                                 $pro_image = $row_pro['product_image'];
                                 $pro_desc = $row_pro['product_desc'];
                                 echo"
-                                    <div id='single_product'>
-                                        <h5>$pro_title</h5>
-                                        <img src='admin_area/product_images/$pro_image' width='400' height='300'/>
-                                        <p><b>$ $pro_price </b></p>
-                                        <p> $pro_desc </p>
-                                        <a href='index.php' style='float:left'>Go Back</a>
-                                        <a href='index.php?pro_id=$pro_id'><button style='float:right'>Comprar</button></a>
+									<a href='index.php' style='float:left'> < Regresar</a><br>
+									<div class='row'>
+									<br><br>
+										<div class='col-md-5'>
+											<img src='admin_area/product_images/$pro_image' width='100%' height='300'/>
+										</div> 
+										<div class='col-md-7'>
+											<h2>Producto $pro_title</h2>
+											<p><b>$ $pro_price </b></p>
+											<p> $pro_desc </p><br>
+											<a href='index.php?pro_id=$pro_id'><button style='float:right'>Comprar</button></a>
+										</div>                                 
                                     </div>
 
                                 ";
@@ -88,7 +65,7 @@ include("functions/functions.php");
             <!-- Content ends here-->
             
             <!-- Footer starts here-->
-            <?php include("footer.php");?>
+            
             <!-- Footer ends here-->
         </div>
         <!-- Main Container ends here-->
