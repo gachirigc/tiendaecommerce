@@ -50,8 +50,9 @@ include("functions/functions.php");
 											<h2>Producto $pro_title</h2>
 											<p><b>$ $pro_price </b></p>
 											<p> $pro_desc </p><br>
-											<a href='index.php?pro_id=$pro_id'><button style='float:right'>Comprar</button></a>
-										</div>                                 
+											<!-- <a href='index.php?pro_id=$pro_id'><button style='float:right'>Comprar</button></a>-->
+								                        <a href='index.php?add_cart=$pro_id'><button style='float:right'>Comprar</button></a>
+									</div>                                 
                                     </div>
 
                                 ";
