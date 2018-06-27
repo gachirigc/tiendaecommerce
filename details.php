@@ -3,24 +3,22 @@
 include("functions/functions.php");
 ?>
 <html>
-    <head>
-        <title>My Online Shop</title>
-        <link rel="stylesheet" href="styles/style.css" media="all" />
-    </head>
+ 		<?php include("header.php");?>
+
     
     <body>
         <!-- Main Container starts here-->
         <div class="main_wrapper">
-            <!-- Header starts here-->
+            <!-- Header starts here
             <div class="header_wrapper">
                 <img id="logo" src="images/logo.gif"/>
                 <img id="banner" src="images/ad-banner.gif"/>
             </div>
-            <!-- Header ends here-->
+             Header ends here-->
             
-            <!-- Navegation Bar starts here-->
+            <!-- Navegation Bar starts here
             <div class="menubar">
-                <ul id="menu"><!-- 无序列表-->
+                <ul id="menu">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">All Products</a></li>
                     <li><a href="#">My Account</a></li>
@@ -36,7 +34,8 @@ include("functions/functions.php");
                 </ul>
 
             </div>
-            <!-- Navegation Bar ends here-->
+            Modificado por Abel Chiriguayo 2018/06/15 gustavo.chiriguayoc@ug.edu.ec
+           Navegation Bar ends here -->
             
             <!-- Content starts here-->
             <div class="content_wrapper">
