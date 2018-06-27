@@ -32,7 +32,7 @@ function cart(){
         if(mysqli_num_rows($run_check)>0){
             echo "";
         }else {
-            $insert_pro = "insert into cart (p_id,ip_add) values ('$pro_id','$ip')";
+            $insert_pro = "insert into cart (p_id,ip_add,qty) values ('$pro_id','$ip',1)";
             $run_pro = mysqli_query($con, $insert_pro);
             echo "<script>window.open('index.php','_self')</script>";
         }
