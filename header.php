@@ -40,7 +40,7 @@
 					</ul>
 					<ul class="header-links pull-right">
 						<li><a href="#"><i class="fa fa-dollar"></i> USD</a></li>
-						<li><a href="#"><i class="fa fa-user-o"></i> Mi Cuenta</a></li>
+						<!-- <li><a href="#"><i class="fa fa-user-o"></i> Mi Cuenta</a></li>-->
 					</ul>
 				</div>
 			</div>
@@ -169,7 +169,7 @@
 					<ul class="main-nav nav navbar-nav">
 						<li class="active"><a href="#">Inicio</a></li>
 						<li><a href="all_products.php">Tienda</a></li>
-						<li><a href="customers/my_account.php">Mi cuenta</a></li>
+						<!--<li><a href="customers/my_account.php">Mi cuenta</a></li>-->
 						<li><a href="customer_register.php">Registro</a></li>
 						<li><a href="cart.php">Carrito de Compras</a></li>
 						<!--<li><a href="contact_us.php">Contactos</a></li>-->
