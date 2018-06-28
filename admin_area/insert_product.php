@@ -33,7 +33,7 @@ include("includes/db.php");
                         </ul>
                         <span class="pull-right clickable panel-toggle panel-button-tab-left"><em class="fa fa-toggle-up"></em></span></div>
                     <div class="panel-body">
-                        <form class="form-horizontal" action="insert_product.php" method="post" enctype="multipart/form-data">
+                        <form class="form-horizontal" action="" method="post" enctype="multipart/form-data">
                             <fieldset>
                                 <!-- Producto input-->
                                 <div class="form-group">
