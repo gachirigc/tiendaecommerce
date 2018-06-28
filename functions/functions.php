@@ -77,7 +77,7 @@ function total_price(){
 }
 function getCats(){
     global $con;
-    $get_cats = "select * from categories";
+    $get_cats = "select * from categories where cat_level =1";
     $run_cats = mysqli_query($con, $get_cats);
     while($row_cats = mysqli_fetch_array($run_cats)){
         $cat_id = $row_cats['cat_id'];
