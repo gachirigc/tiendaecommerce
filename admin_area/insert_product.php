@@ -143,7 +143,7 @@ if (isset($_POST['insert_post'])) {
     $insert_pro = mysqli_query($con, $insert_product);
     if ($insert_pro) {
         echo "<script>alert('producto ha sido insertado')</script>";
-        echo "<script>window.open('index.php?insert_product','_self')</script>";
+        echo "<script>window.open('index.php?view_products','_self')</script>";
     }
 }
 ?>
