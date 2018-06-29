@@ -28,10 +28,8 @@ include("functions/functions.php");
                         <?php 
                         if(!isset($_SESSION['customer_email'])){
                             include("customer_login.php");
-                        }else {
-                            <div id="products_box"> 
+                        }else {                           
                             include("payment.php");
-                            </div>
                         }
                         ?>
                     </div>
