@@ -23,7 +23,7 @@ include("functions/functions.php");
                     </ul>
                 </div>
                 <?php cart(); ?>
-                <div id="content_area">                    
+                <div id="content_area" style="padding: 35px 50px;">                    
                     <div id="products_box">
                         <?php 
                         if(!isset($_SESSION['customer_email'])){
