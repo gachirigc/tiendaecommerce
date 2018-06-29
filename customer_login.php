@@ -13,8 +13,8 @@ include("includes/db.php");
 			</tr>
 			
 			<tr>
-				<td align="right"><b>Password:</b></td>
-				<td><input type="password" name="pass" placeholder="ingrese password" required/></td>
+				<td align="right"><b>Contraseña:</b></td>
+				<td><input type="password" name="pass" placeholder="ingrese contraseña" required/></td>
 			</tr>
 			
 			<tr align="center">
@@ -36,7 +36,7 @@ include("includes/db.php");
 		$run_c = mysqli_query($con, $sel_c);
 		$check_customer = mysqli_num_rows($run_c); 
 		if($check_customer==0){
-            echo "<script>alert('Password or email is incorrect, plz try again!')</script>";
+            echo "<script>alert('La contraseña o el correo electrónico son incorrectos, intente de nuevo!')</script>";
             exit();
 		}
         $ip = getIp(); 
@@ -45,12 +45,12 @@ include("includes/db.php");
 		$check_cart = mysqli_num_rows($run_cart); 
 		if($check_customer>0 AND $check_cart==0){
             $_SESSION['customer_email']=$c_email; 
-            echo "<script>alert('You logged in successfully, Thanks!')</script>";
+            echo "<script>alert('Has iniciado sesión con éxito, gracias!')</script>";
             echo "<script>window.open('customer/my_account.php','_self')</script>";
 		}
 		else {
 		    $_SESSION['customer_email']=$c_email; 
-            echo "<script>alert('You logged in successfully, Thanks!')</script>";
+            echo "<script>alert('Has iniciado sesión con éxito, gracias!')</script>";
             echo "<script>window.open('checkout.php','_self')</script>";
         }
     }
