@@ -8,8 +8,8 @@ include("includes/db.php");
 				<td colspan="3"><h2>Iniciar sesión o registrarse para comprar!</h2></td>
 			</tr>
 			<tr>
-				<td align="right"><b>Email:</b></td>
-				<td><input type="text" name="email" placeholder="ingrese email" required/></td>
+				<td align="right"><b>Correo electrónico:</b></td>
+				<td><input type="text" name="email" placeholder="ingrese correo electrónico" required/></td>
 			</tr>
 			
 			<tr>
