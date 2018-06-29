@@ -1,4 +1,4 @@
-<div>
+<div id="products_box">
 <?php 
 		include("includes/db.php"); 
 		$total = 0;
