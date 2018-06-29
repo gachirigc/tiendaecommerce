@@ -37,6 +37,7 @@ include("functions/functions.php");
             </div>
             <!-- Content ends here-->            
             <!-- Footer starts here-->
+            <?php include("footer.php");?>
             <!-- Footer ends here-->
         <!-- Main Container ends here-->
     </body>
