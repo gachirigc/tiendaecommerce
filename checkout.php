@@ -23,13 +23,15 @@ include("functions/functions.php");
                     </ul>
                 </div>
                 <?php cart(); ?>
-                <div id="content_area" style="padding: 35px 50px;">                    
-                    <div id="products_box">
+                <div id="content_area">                    
+                    <div >
                         <?php 
                         if(!isset($_SESSION['customer_email'])){
                             include("customer_login.php");
                         }else {
+                            <div id="products_box"> 
                             include("payment.php");
+                            </div>
                         }
                         ?>
                     </div>
